@@ -1,0 +1,9 @@
+<launch>
+
+    <node name="bag_follower" pkg="ta_lab0" type="BagFollower.py" output="screen">
+        <param name="bag_path" type="string" value="/home/patrick/racecar_ws/src/ta_lab0/data/circle.bag" />
+				<param name="follow_backwards" type="bool" value="true" />
+
+    </node>
+
+</launch>
